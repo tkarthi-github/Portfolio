@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio || Karthi</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <main>
+    <!-- <h1>Portfolio</h1> -->
+    <!-- Header Nav section start -->
+    <header class="header">
+        <nav class="nav-bar">
+            <p><span>P</span>ortfolio</p>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header Nav section end -->
+    <!-- Hero Page section start -->
+    <section class="home" id="home">
+        <div class="left-container">
+            <div class="content">
+                <h5>Hi there,</h5>
+                <h1><span>I'am </span><span>K</span>arthi</h1>
+                <h3>Full Stack Developer</h3>
+                <div class="btn-container">
+                    <button>Download CV</button>
+                    <!-- <button>Contact</button> -->
+                </div>
+                <div class="social-link-container">
+                    <a href="https://www.facebook.com/karthi.gk.79/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/home=en" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/karthi-thangavel-37633a215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/tkarthi-github"  target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/tkarthi_0721/?hl=en" target="_blank" rel="noopener noreferrer""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-container">
+            <!-- <img src="../assets/guy_port.jpg" alt="" srcset=""> -->
+             <!-- <div class="img-background"></div> -->
+        </div>
+    </section>
+    <!-- Hero Page section end -->
+    <!-- About section start -->
+         <section class="about" id="about">
+            <div class="left-panel">
+                <img src="../assets/guy_port.jpg" alt="My photo">
+            </div>
+            <div class="right-panel">
+                <h1>About Me</h1>
+                <p>Dedicated and efficient full stack developer with 6+ years experience in application layers, presentation layers, and databases. <br>Spearheaded successful transition to MERN Stack Developer which cut latency by 40% and increased effectiveness of database administrators by 20%.<br> Seeking to further improve HTML5 and CSS3 and other skills as the future full stack developer at Atmospheric Solutions.</p>
+                <div class="btn-container">
+                    <button class="tab-link active-link" onclick="handleClick('education')">Education Profile</button>
+                    <button class="tab-link" onclick="handleClick('experience')">Experience Profile</button>
+                </div>
+                <div class="link-content active-content" id="education" >
+                    <ul>
+                        <li>Diploma in Computer Engineering 
+                            <p>I graduated with a Diploma in Computer Engineering from Thiagarajar Polytechnic College, Salem, Tamilnadu.</p>
+                            <p>Year of Graduation - 2012</p>
+                            <p>With achieving - 91%.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="link-content" id="experience">
+                    <ul>
+                        <li>Software Developer <br><p>I have 1.5 years of experience in developer at Qualitime Software Private Limited, Coimbatore.</p> </li>
+                        <li>Co-ordinator <br><p>I have 5 years of experience in Operation Co Ordinator at Exela Techologies, Inc., Salem.</p></li>
+                        <li>Software Engineer <br><p>Currently working as Software Engineer at Exela Techologies, Inc., Chennai.</p></li>
+                    </ul>
+                </div>
+            </div>
+         </section>
+    <!-- About section end -->
+    <!-- Skills section start -->
+        <section class="skills" id="skills">
+            <div class="frontend-skills common">
+                <h1>Frontend</h1>
+                <div class="skill-content html">
+                    <p>HTML5</p>
+                    <span>95%</span>
+                </div>
+                <div class="skill-content css">
+                    <p>CSS3</p>
+                    <span>90%</span>
+                </div>
+                <div class="skill-content javascript">
+                    <p>JavaScript</p>
+                    <span>80%</span>
+                </div>
+                <div class="skill-content react">
+                    <p>React JS</p>
+                    <span>75%</span>
+                </div>
+                <div class="skill-content tailwind">
+                    <p>Tailwind CSS</p>
+                    <span>60%</span>
+                </div>
+                <div class="skill-content boostrup">
+                    <p>Boostrup</p>
+                    <span>60%</span>
+                </div>
+            </div>
+            <div class="backend-skills common">
+                <h1>Backend</h1>
+                <div class="skill-content node">
+                    <p>Node JS</p>
+                    <span>90%</span>
+                </div>
+                <div class="skill-content express">
+                    <p>Express JS</p>
+                    <span>90%</span>
+                </div>
+                <div class="skill-content java">
+                    <p>Java</p>
+                    <span>90%</span>
+                </div>
+                <div class="skill-content springboot">
+                    <p>Spring Boot</p>
+                    <span>90%</span>
+                </div>
+            </div>
+            <div class="databases-skills common">
+                <h1>Database</h1>
+                <div class="skill-content mysql">
+                    <p>My SQL</p>
+                    <span>90%</span>
+                </div>
+
+                <div class="skill-content mssql">
+                    <p>MS SQL</p>
+                    <span>90%</span>
+                </div>
+
+                <div class="skill-content oracle">
+                    <p>Oracle PL/SQL</p>
+                    <span>90%</span>
+                </div>
+
+                <div class="skill-content mongodb">
+                    <p>No SQL - Mongo DB</p>
+                    <span>90%</span>
+                </div>
+            </div>
+        </section>
+    <!-- Skills section end -->
+    <!-- My Projects section start -->
+        <section class="projects" id="projects">
+            <h1 class="project-header">Projects</h1>
+            <div class="project-container">
+                <div class="grid-items">Project1</div>
+                <div class="grid-items">Project2</div>
+                <div class="grid-items">Project3</div>
+                <div class="grid-items">Project4</div>
+                <div class="grid-items">Project5</div>
+                <div class="grid-items">Project6</div>
+            </div>
+           
+        </section>
+    <!-- My Projects section end -->
+    <!-- Contact section start -->
+        <section class="contact" id="contact">
+           <div class="container">
+                <h1>Contact</h1>
+                <form action="" method="post" class="form-container">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="email" name="email" id="email" placeholder="EMail">
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                    <input type="text" name="message" id="message" placeholder="Message">
+                    <p>Email To : karthi.gk888@gmail.com</p>
+                    <button type="submit">Send</button>
+                </form>
+           </div>
+        </section>
+     <!-- Contact section end -->
+    
+    <!-- Footer section start -->
+    <footer class="footer" id="footer">
+        <div class="footer1">
+            <p>© Copyright 2024, TKarthi. All Rights Reserved</p>
+            <a href="#home" title="Move top"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+        <div class="footer2">
+            <div class="social-link-container">
+                <a href="https://www.facebook.com/karthi.gk.79/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/home=en" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/karthi-thangavel-37633a215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/tkarthi-github" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/tkarthi_0721/?hl=en"  target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        </div>
+        
+    </footer>
+    <!-- Footer section end -->
+     <script src="../script/script.js"></script>
+</main>
+</body>
+</html>
